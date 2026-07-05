@@ -8,5 +8,10 @@ namespace Punto.Forms
         {
             InitializeComponent();
         }
+
+        private void frmProductos_Load(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

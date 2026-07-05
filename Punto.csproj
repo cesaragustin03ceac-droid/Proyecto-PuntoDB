@@ -100,31 +100,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="conexion\Coneccion.cs" />
-    <Compile Include="Forms\frmLogin.cs">
+    <Compile Include="Forms\Login\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmLogin.Designer.cs">
+    <Compile Include="Forms\Login\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmPrincipal.cs">
+    <Compile Include="Forms\Principal\frmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmPrincipal.Designer.cs">
+    <Compile Include="Forms\Principal\frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\frmProductos.cs">
+    <Compile Include="Forms\Producto\frmProductos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\frmProductos.Designer.cs">
+    <Compile Include="Forms\Producto\frmProductos.Designer.cs">
       <DependentUpon>frmProductos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\frmLogin.resx">
+    <EmbeddedResource Include="Forms\Login\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\frmPrincipal.resx">
+    <EmbeddedResource Include="Forms\Principal\frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Producto\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -149,5 +152,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
